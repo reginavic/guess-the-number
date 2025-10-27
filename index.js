@@ -1,4 +1,4 @@
-let text = "Let's play a game...";
+let text = "Guess the number";
 let i = 0;
 let speed = 100;
 function type() {
@@ -70,7 +70,7 @@ const userNumber = document.querySelector('#guess').value;
     }
 }
 function myFunction() {
-    document.querySelector("myForm").reset();
+    document.querySelector("#myForm").reset();
     input.value="";
 }
 myFunction();
