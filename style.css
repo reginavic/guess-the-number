@@ -1,6 +1,6 @@
 body {
     background-image: url("pic7.jpg");
-    background-color: #092f7a;
+    background-color: #390d80;
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
@@ -76,26 +76,26 @@ h3 {
 }
 @media all and (max-width:1280px){
     #par {
-        margin-left: 300px;
+        margin-left: 330px;
         font-size: 80px;
-}
+    }
 }
 @media all and (max-width:1024px){
     #par {
         margin-left: 220px;
         margin-top: 120px;
-}
+    }
 }
 @media all and (max-width: 912px){
     #par {
-        margin-left: 130px;
-}
+        margin-left: 150px;
+    }
 }
 @media all and (max-width:860px){
     #par {
         margin-left: 100px;
         margin-top: 150px;
-}
+    }
 }
 @media all and (max-width:800px){
     #guess {
@@ -132,13 +132,19 @@ h3 {
 @media all and (max-width:768px){
     #par {
         margin-left: 160px;
+    }
 }
+@media all and (max-width: 660px){
+    #par {
+        margin-left: 120px;
+        font-size: 40px;
+    }
 }
 @media all and (max-width:540px){
     #par {
         margin-left: 90px;
         font-size: 50px;
-}
+    }
 }
 @media all and (max-width:500px){
     #guess {
@@ -172,15 +178,19 @@ h3 {
         font-size: 15px;
     }
 }
-@media all and (max-width:430px){
+@media all and (max-width:440px){
     #par {
-        margin-left: 80px;
-}
+        margin-left: 60px;
+    }
+    .container {
+        width: 60%;
+        padding: 20px;
+    }
 }
 @media all and (max-width:420px){
     #par {
         margin-left: 50px;
-}
+    }
 }
 @media all and (max-width:400px){
     #par {
@@ -192,9 +202,14 @@ h3 {
         padding: 20px;
     }
 }
-@media all and (max-width:344px){
+@media all and (max-width:360px){
     #par {
         margin-left: 60px;
         font-size: 30px;
+    }
 }
+@media all and (max-width:344px){
+    #par {
+        margin-left: 60px;
+    }
 }
