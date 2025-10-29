@@ -61,7 +61,7 @@ const userNumber = document.querySelector('#guess').value;
     else {
         Swal.fire({
             title: 'You Win!',
-            imageUrl: 'vin.jpg',
+            imageUrl: 'win.jpg',
             imageWidth: 600,
             imageHeight: 400,
             imageAlt: 'Win!',
